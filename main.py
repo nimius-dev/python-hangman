@@ -68,7 +68,7 @@ class Game:
             print(loss_message.format(secret=self.secret_word))
 
 
-def main():
+if __name__ == '__main__':
     while not end:
         guesses = max_guesses
         print(greeting)
@@ -77,4 +77,3 @@ def main():
         game = Game()
 
 
-main()
